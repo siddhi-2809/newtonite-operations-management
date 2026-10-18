@@ -1,0 +1,49 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+backend_venv/
+venv/
+.env
+*.sqlite3
+
+# Next.js & Node
+node_modules/
+.next/
+out/
+build/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.local
+
+backend_venv/
+**/backend_venv/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+dist/
+*.log
+
